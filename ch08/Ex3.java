@@ -1,5 +1,11 @@
-package ch08;
+/******************************************************************************
 
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
 import java.util.Arrays;
 
 public class Ex3 {
@@ -25,7 +31,8 @@ public class Ex3 {
 		  {	
 			num2=num1[i];   //將陣列變數num1第i列所指向的記憶體設定給陣列變數num2
 			Arrays.sort(num2);
-		  }		 
+		  }		 		  		 
+		 System.out.println("\n再一次地我們將看到,針對num2排序但是卻從 num1 看到效果");				
 		 System.out.print("\n二維整數陣列排序後的資料:{");				
 		 for (i=0;i<4;i++)	
 		  {
